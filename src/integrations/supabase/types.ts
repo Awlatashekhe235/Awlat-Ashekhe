@@ -10,6 +10,7 @@ export type Database = {
   // Allows to automatically instanciate createClient with right options
   // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
   __InternalSupabase: {
+<<<<<<< HEAD
     PostgrestVersion: "12.2.12 (cd3cf9e)"
   }
   public: {
@@ -111,10 +112,73 @@ export type Database = {
           reviews_count?: number | null
           social_links?: Json | null
           specialties?: string[] | null
+=======
+    PostgrestVersion: "12.2.3 (519615d)"
+  }
+  public: {
+    Tables: {
+      products: {
+        Row: {
+          category: string | null
+          condition: string | null
+          created_at: string
+          description: string | null
+          email: string | null
+          exchange_opt: boolean | null
+          id: string
+          image_url: string | null
+          is_active: boolean | null
+          location: string | null
+          name: string | null
+          price: number | null
+          quantity: number | null
+          rating: number | null
+          seller_id: string | null
+          type: string | null
+          whatsapp: string | null
+        }
+        Insert: {
+          category?: string | null
+          condition?: string | null
+          created_at?: string
+          description?: string | null
+          email?: string | null
+          exchange_opt?: boolean | null
+          id?: string
+          image_url?: string | null
+          is_active?: boolean | null
+          location?: string | null
+          name?: string | null
+          price?: number | null
+          quantity?: number | null
+          rating?: number | null
+          seller_id?: string | null
+          type?: string | null
+          whatsapp?: string | null
+        }
+        Update: {
+          category?: string | null
+          condition?: string | null
+          created_at?: string
+          description?: string | null
+          email?: string | null
+          exchange_opt?: boolean | null
+          id?: string
+          image_url?: string | null
+          is_active?: boolean | null
+          location?: string | null
+          name?: string | null
+          price?: number | null
+          quantity?: number | null
+          rating?: number | null
+          seller_id?: string | null
+          type?: string | null
+>>>>>>> 406e6e1fa55f0aa354a97e93f4637c8c197d5497
           whatsapp?: string | null
         }
         Relationships: []
       }
+<<<<<<< HEAD
       games: {
         Row: {
           category: string
@@ -454,6 +518,66 @@ export type Database = {
           updated_at?: string | null
           user_id?: string
         }
+=======
+      "public.products": {
+        Row: {
+          category: string | null
+          condition: string | null
+          created_at: string
+          description: string | null
+          email: string | null
+          exchange_opt: boolean | null
+          id: string
+          image_url: string | null
+          is_active: boolean | null
+          location: string | null
+          name: string | null
+          price: number | null
+          quantity: number | null
+          rating: number | null
+          seller_id: string | null
+          type: string | null
+          whatsapp: string | null
+        }
+        Insert: {
+          category?: string | null
+          condition?: string | null
+          created_at?: string
+          description?: string | null
+          email?: string | null
+          exchange_opt?: boolean | null
+          id?: string
+          image_url?: string | null
+          is_active?: boolean | null
+          location?: string | null
+          name?: string | null
+          price?: number | null
+          quantity?: number | null
+          rating?: number | null
+          seller_id?: string | null
+          type?: string | null
+          whatsapp?: string | null
+        }
+        Update: {
+          category?: string | null
+          condition?: string | null
+          created_at?: string
+          description?: string | null
+          email?: string | null
+          exchange_opt?: boolean | null
+          id?: string
+          image_url?: string | null
+          is_active?: boolean | null
+          location?: string | null
+          name?: string | null
+          price?: number | null
+          quantity?: number | null
+          rating?: number | null
+          seller_id?: string | null
+          type?: string | null
+          whatsapp?: string | null
+        }
+>>>>>>> 406e6e1fa55f0aa354a97e93f4637c8c197d5497
         Relationships: []
       }
     }

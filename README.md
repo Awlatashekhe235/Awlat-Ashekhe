@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Lovable project
 
 ## Project info
@@ -71,3 +72,7 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+=======
+# Awlat-Ashehe
+متجر إلكتروني متكامل يتيح للمستخدمين البيع والشراء عبر الإنترنت بسهولة وأمان، مع توفير تجربة تسوق مميزة وخيارات دفع متعددة
+>>>>>>> 406e6e1fa55f0aa354a97e93f4637c8c197d5497

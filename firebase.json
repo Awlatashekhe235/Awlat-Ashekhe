@@ -1,16 +1,23 @@
 {
   "hosting": {
+<<<<<<< HEAD
     "public": "build",
+=======
+    "public": "dist",
+>>>>>>> 406e6e1fa55f0aa354a97e93f4637c8c197d5497
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+<<<<<<< HEAD
     ],
     "rewrites": [
       {
         "source": "**",
         "destination": "/index.html"
       }
+=======
+>>>>>>> 406e6e1fa55f0aa354a97e93f4637c8c197d5497
     ]
   }
 }
